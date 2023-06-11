@@ -146,6 +146,47 @@ const Calculadora = () => {
           </View>
         </View>
       );
-
     };
+    const styles = StyleSheet.create({
+        container: {
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#9E54E4', 
+        },
+        resultContainer: {
+          marginBottom: 28,
+        },
+        resultText: {
+          fontSize: 40,
+          fontWeight: 'bold',
+          color: 'white',
+        },
+        buttonContainer: {
+          width: 300,
+        },
+        row: {
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          marginBottom: 10,
+        },
+        button: {
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#6B00FC', 
+          padding: 10,
+          borderRadius: 8,
+          margin: 4,
+        },
+        buttonText: {
+          fontSize: 30,
+          fontWeight: 'bold',
+          color: '#fff',
+        },
+      });
+      
+      export default Calculadora;
+      
+
     
